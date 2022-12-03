@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/one/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/one/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/two/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/two/test.txt" afterDir="false" />
+    <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="Day 3">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day03.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Util.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/03/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/03/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/one/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/01/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/one/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/01/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/two/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/02/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/two/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/02/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +54,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Day02Kt">
+  <component name="RunManager" selected="Kotlin.Day03Kt">
     <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01Kt" />
       <module name="aoc" />
@@ -79,8 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day03Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03Kt" />
+      <module name="aoc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day03Kt" />
         <item itemvalue="Kotlin.Day02Kt" />
         <item itemvalue="Kotlin.Day01Kt" />
       </list>
@@ -95,10 +99,15 @@
       <option name="presentableId" value="Default" />
       <updated>1669909566531</updated>
       <workItem from="1669909567800" duration="17304000" />
+      <workItem from="1670081903283" duration="6926000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
   </component>
 </project>

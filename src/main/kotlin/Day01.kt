@@ -1,5 +1,4 @@
 import java.io.File
-import java.net.URI
 import java.net.URL
 
 fun main(args: Array<String>) {
@@ -7,12 +6,12 @@ solutionOne()
 solutionTwo()
 }
 fun solutionTwo() {
-    val data :Int = getResourceAsText("one/input.txt")
+    val data :Int = getResourceAsText("01/input.txt")
         .split("\n\n")
         .maxOf { it.split("\n").sumOf(String::toInt) }
     println(data)
 
-    val data2 = getResourceAsText("one/input.txt")
+    val data2 = getResourceAsText("01/input.txt")
         .split("\n\n")
         .map { it.split("\n").sumOf(String::toInt) }
         .sortedDescending()
@@ -21,7 +20,7 @@ fun solutionTwo() {
     println(data2)
 }
 fun solutionOne() {
-    val uri = getResourceAsURL("one/input.txt")?.toURI()
+    val uri = getResourceAsURL("01/input.txt")?.toURI()
     val elfTotals = mutableListOf<Int>()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
@@ -46,6 +45,3 @@ fun solutionOne() {
     println(elfTotals.take(3).sum())
 }
 
-fun getResourceAsText(path: String): String = object {}.javaClass.getResource(path)!!.readText()
-
-fun getResourceAsURL(path: String): URL? = object {}.javaClass.getResource(path)

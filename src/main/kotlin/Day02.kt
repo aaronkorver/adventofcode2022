@@ -5,7 +5,7 @@ partOne()
 }
 
 fun partTwo() {
-    val uri = getResourceAsURL("two/input.txt")?.toURI()
+    val uri = getResourceAsURL("02/input.txt")?.toURI()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
         var score = 0
@@ -21,7 +21,7 @@ fun partTwo() {
 }
 
 fun partOne() {
-    val uri = getResourceAsURL("two/input.txt")?.toURI()
+    val uri = getResourceAsURL("02/input.txt")?.toURI()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
         var score = 0
