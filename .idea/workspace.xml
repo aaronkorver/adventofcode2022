@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="Day 3">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/04/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/04/test.txt" afterDir="false" />
+    <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day05.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/05/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day04Kt">
+  <component name="RunManager" selected="Kotlin.Day05Kt">
     <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01Kt" />
       <module name="aoc" />
@@ -82,8 +82,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day05Kt" />
+      <module name="aoc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day05Kt" />
         <item itemvalue="Kotlin.Day04Kt" />
         <item itemvalue="Kotlin.Day03Kt" />
         <item itemvalue="Kotlin.Day02Kt" />
@@ -120,5 +128,15 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Day 3" />
     <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
