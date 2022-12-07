@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="Day 3">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day06.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/06/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/06/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day07.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/07/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/07/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,14 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day06Kt">
-    <configuration name="Day02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02Kt" />
-      <module name="aoc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day07Kt">
     <configuration name="Day03Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day03Kt" />
       <module name="aoc" />
@@ -89,13 +84,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07Kt" />
+      <module name="aoc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day07Kt" />
         <item itemvalue="Kotlin.Day06Kt" />
         <item itemvalue="Kotlin.Day05Kt" />
         <item itemvalue="Kotlin.Day04Kt" />
         <item itemvalue="Kotlin.Day03Kt" />
-        <item itemvalue="Kotlin.Day02Kt" />
       </list>
     </recent_temporary>
   </component>
