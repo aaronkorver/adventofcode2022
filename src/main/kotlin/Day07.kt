@@ -22,15 +22,6 @@ class TreeNode(private var value: String){
 //        }
         return s
     }
-    fun toNiceString(level: Int): String {
-        var s = "$value [${getFinalSize()}] "
-        val tabs = "\t".repeat(level)
-        if (children.isNotEmpty()) {
-            s += "\n"
-            s += " {" + children.map { tabs + it.toNiceString(level + 1) } + " }"
-        }
-        return s
-    }
 
     fun getFinalSize():Long = totalSize + children.sumOf { it.getFinalSize() }
 
