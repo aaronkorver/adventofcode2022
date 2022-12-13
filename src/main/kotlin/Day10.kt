@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    day10part02()
+    day10part01()
 }
 
 fun printScreen(values: Array<String>) {
@@ -38,8 +38,8 @@ fun day10part02() {
     printScreen(values)
 }
 fun day10part01() {
-    var operations = getResourceAsText("10/input.txt").lines()
-    var cycles = 0
+    var operations = getResourceAsText("10/test.txt").lines()
+    var cycles = 1
     var busy = false
     var registerX = 1
     var addx = 0
@@ -48,15 +48,14 @@ fun day10part01() {
     while (operations.isNotEmpty() ||(operations.isEmpty() && busy))
     {
         total += when {
-            cycles + 1 == 20 -> {
+            cycles == 20 -> {
                 println(registerX * 20)
                 registerX * 20
             }
-            (cycles -19)  % 40 == 0 -> {
-                println(registerX * (cycles + 1))
-                registerX * (cycles + 1)
+            (cycles - 20)  % 40 == 0 -> {
+                println(registerX * (cycles))
+                registerX * (cycles)
             }
-
             else -> 0
         }
         when {
@@ -73,10 +72,9 @@ fun day10part01() {
                 operations = operations.drop(1)
             }
         }
-        values[cycles] = registerX
+        values[cycles - 1] = registerX
         cycles++
     }
-    println(values.toList())
     println(total)
 }
 
