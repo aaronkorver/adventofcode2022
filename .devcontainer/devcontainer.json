@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/mikaello/devcontainer-features/kotlinc:1": {},
+    "ghcr.io/devcontainers/features/java:1":{}
+    }
+}
