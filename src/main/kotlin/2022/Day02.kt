@@ -1,3 +1,6 @@
+package `2022`
+
+import getResourceAsURL
 import java.io.File
 
 fun main(args: Array<String>) {
@@ -5,7 +8,7 @@ partOne()
 }
 
 fun partTwo() {
-    val uri = getResourceAsURL("02/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/02/input.txt")?.toURI()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
         var score = 0
@@ -21,7 +24,7 @@ fun partTwo() {
 }
 
 fun partOne() {
-    val uri = getResourceAsURL("02/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/02/input.txt")?.toURI()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
         var score = 0

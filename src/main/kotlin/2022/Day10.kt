@@ -1,3 +1,7 @@
+package `2022`
+
+import getResourceAsText
+
 fun main(args: Array<String>) {
     day10part01()
 }
@@ -9,7 +13,7 @@ fun printScreen(values: Array<String>) {
     }
 }
 fun day10part02() {
-    var operations = getResourceAsText("10/input.txt").lines()
+    var operations = getResourceAsText("2022/10/input.txt").lines()
     var cycles = 1
     var busy = false
     var registerX = 1
@@ -38,7 +42,7 @@ fun day10part02() {
     printScreen(values)
 }
 fun day10part01() {
-    var operations = getResourceAsText("10/test.txt").lines()
+    var operations = getResourceAsText("2022/10/test.txt").lines()
     var cycles = 1
     var busy = false
     var registerX = 1

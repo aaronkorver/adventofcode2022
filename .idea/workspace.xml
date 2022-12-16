@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad69ba35-7d9b-4a30-9674-22a7af5bc0bb" name="Changes" comment="Day 3">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2015/Day01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/2015/01/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day10.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +60,28 @@
       </method>
     </configuration>
     <configuration name="Day06Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06Kt" />
+      <option name="MAIN_CLASS_NAME" value="2022.Day06Kt" />
       <module name="aoc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07Kt" />
+      <option name="MAIN_CLASS_NAME" value="2022.Day07Kt" />
       <module name="aoc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day08Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day08Kt" />
+      <option name="MAIN_CLASS_NAME" value="2022.Day08Kt" />
       <module name="aoc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10Kt" />
+      <option name="MAIN_CLASS_NAME" value="2022.Day10Kt" />
       <module name="aoc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,7 +108,7 @@
       <workItem from="1669909567800" duration="17304000" />
       <workItem from="1670081903283" duration="7256000" />
       <workItem from="1670132150013" duration="3320000" />
-      <workItem from="1670907669795" duration="4370000" />
+      <workItem from="1670907669795" duration="7552000" />
     </task>
     <task id="LOCAL-00001" summary="Day 3">
       <created>1670089038117</created>

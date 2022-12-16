@@ -1,13 +1,16 @@
+package `2022`
+
+import getResourceAsURL
 import java.io.File
 
 class TreeNode(private var value: String){
-    var parent:TreeNode? = null
+    var parent: TreeNode? = null
 
     var children:MutableList<TreeNode> = mutableListOf()
     var totalSize: Long = 0
     var fileCount = 0
 
-    fun addChild(node:TreeNode){
+    fun addChild(node: TreeNode){
         children.add(node)
         node.parent = this
     }
@@ -58,7 +61,7 @@ class Visitor (val size: Long) {
 fun main(args: Array<String>) {
     val root = TreeNode("/")
     var currentNode = root
-    val uri = getResourceAsURL("07/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/07/input.txt")?.toURI()
     if (uri != null) {
         File(uri).inputStream().bufferedReader().forEachLine {
            currentNode = parseLine(it,currentNode)

@@ -1,7 +1,11 @@
+package `2022`
+
+import getResourceAsText
+
 fun main(args: Array<String>) {
 
     val input = mutableListOf<MutableList<Pair<Int,String>>>()
-    getResourceAsText("08/input.txt")
+    getResourceAsText("2022/08/input.txt")
         .lines().forEach { tree ->
             run {
                 val testList = tree.toCharArray().map { Pair(it.toString().toInt(), "") }.toMutableList()

@@ -1,10 +1,12 @@
-import java.util.LinkedList
+package `2022`
+
+import getResourceAsText
 
 fun main(args: Array<String>) {
-    val (crates,instructions) = getResourceAsText("05/input.txt").split("\n\n")
+    val (crates,instructions) = getResourceAsText("2022/05/input.txt").split("\n\n")
     println(crates)
     val piles = createCrateStructure(crates)
-    //parseInstructionsPartOne(instructions,piles)
+    //`2022`.parseInstructionsPartOne(instructions,piles)
     parseInstructionsPartTwo(instructions,piles)
     print(piles.values.fold("") {acc, strings -> acc + strings[0] })
 }

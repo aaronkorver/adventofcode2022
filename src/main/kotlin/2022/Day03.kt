@@ -1,13 +1,16 @@
+package `2022`
+
+import getResourceAsText
+import getResourceAsURL
 import java.io.File
-import java.net.URL
 
 fun main(args: Array<String>) {
-   // solutionThreePartTwo()
-    //solutionOptimized()
+   // `2022`.solutionThreePartTwo()
+    //`2022`.solutionOptimized()
     println(solutionWithSets())
 }
 fun solutionWithSets() : Int{
-    val input = getResourceAsText("03/test.txt")
+    val input = getResourceAsText("2022/03/test.txt")
     val lower = 'a'..'z'
     val upper = 'A'..'Z'
     val priorities = lower.associateWith { it.code - 96 } + upper.associateWith { it.code - 38 }
@@ -19,7 +22,7 @@ fun solutionWithSets() : Int{
     }
 }
 fun solutionOptimized() {
-    val input = getResourceAsText("03/test.txt")
+    val input = getResourceAsText("2022/03/test.txt")
     val lower = 'a'..'z'
     val upper = 'A'..'Z'
     val priorities = lower.associateWith { it.code - 96 } + upper.associateWith { it.code - 38 }
@@ -34,7 +37,7 @@ fun solutionOptimized() {
 
 }
 fun solutionThreePartTwo() {
-    val uri = getResourceAsURL("03/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/03/input.txt")?.toURI()
     val priorities = ('a'..'z').associateWith { it.code - 96 } + ('A'..'Z').associateWith { it.code - 38 }
     if (uri != null) {
         val inputStream = File(uri).inputStream()
@@ -60,7 +63,7 @@ fun solutionThreePartTwo() {
     }
 }
 fun solutionThreePartOne() {
-    val uri = getResourceAsURL("03/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/03/input.txt")?.toURI()
     val lower = 'a' .. 'z'
     val upper = 'A' .. 'Z'
     val priorities = lower.associateWith { it.code - 96 } + upper.associateWith { it.code - 38 }

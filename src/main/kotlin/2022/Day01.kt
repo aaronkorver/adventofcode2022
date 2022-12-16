@@ -1,17 +1,20 @@
+package `2022`
+
+import getResourceAsText
+import getResourceAsURL
 import java.io.File
-import java.net.URL
 
 fun main(args: Array<String>) {
 solutionOne()
 solutionTwo()
 }
 fun solutionTwo() {
-    val data :Int = getResourceAsText("01/input.txt")
+    val data :Int = getResourceAsText("2022/01/input.txt")
         .split("\n\n")
         .maxOf { it.split("\n").sumOf(String::toInt) }
     println(data)
 
-    val data2 = getResourceAsText("01/input.txt")
+    val data2 = getResourceAsText("2022/01/input.txt")
         .split("\n\n")
         .map { it.split("\n").sumOf(String::toInt) }
         .sortedDescending()
@@ -20,7 +23,7 @@ fun solutionTwo() {
     println(data2)
 }
 fun solutionOne() {
-    val uri = getResourceAsURL("01/input.txt")?.toURI()
+    val uri = getResourceAsURL("2022/01/input.txt")?.toURI()
     val elfTotals = mutableListOf<Int>()
     if (uri != null) {
         val inputStream = File(uri).inputStream()
